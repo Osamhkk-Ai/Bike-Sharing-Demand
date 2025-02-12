@@ -45,14 +45,13 @@ The dataset comes from a bike-sharing system and includes hourly rental data alo
 ---
 
 ## 🚀 Results  
-- **Baseline RMSE:** -32  
-- **After Feature Engineering:** Improved RMSE  
-- **After Hyperparameter Tuning:** Kaggle score improved from 47 to **44**  
+| Model Version      | RMSE  | Kaggle Score |
+|--------------------|-------|-------------|
+| Initial Model     | -52   | ~1.8        |
+| After Feature Engineering | -32   | ~0.47        |
+| After Hyperparameter Tuning | -33   | ~0.44        |
+
+- **Significant improvement** was achieved after adding new features.  
+- Despite RMSE slightly worsening after hyperparameter tuning, the **Kaggle score improved**, suggesting better generalization on unseen data.  
 
 ---
-
-## 🛠️ How to Run the Project  
-1️⃣ Clone the repository:  
-```bash
-git clone https://github.com/yourusername/bike-sharing-demand.git
-cd bike-sharing-demand
